@@ -34,9 +34,13 @@
 # Folder
 *Debug*
 *Release*
+*build*
 
 # Configuration
 *.user
 
 # MAC
 *.DS_Store
+
+# Doc
+*.pdf
