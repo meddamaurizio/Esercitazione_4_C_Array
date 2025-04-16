@@ -1,5 +1,4 @@
-#ifndef UTILS_HPP
-#define UTILS_HPP
+#pragma once
 
 #include <iostream>
 #include <fstream>
@@ -19,5 +18,3 @@ double calculateFinalValue(double S, double portfolioRate);
 // Funzione per scrivere i risultati nel file di output
 // Restituisce true se la scrittura ha successo, false altrimenti.
 bool writeResults(const std::string& filename, double S, int n, const double* w, const double* r, double portfolioRate, double V);
-
-#endif // UTILS_HPP
